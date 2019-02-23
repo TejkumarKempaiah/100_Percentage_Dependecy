@@ -13,22 +13,22 @@ public class LaunchChrome
 	
 	static
 	{
-		//NOTE: Below one is for chromedriver
+		//NOTE: Below one is for Chromedriver
 		//WebDriverManager.chromedriver().setup();
 		
-		//NOTE: Below one is for firefoxdriver
+		//NOTE: Below one is for Firefoxdriver
 		WebDriverManager.firefoxdriver().setup();
 	}
 
 	public static void main(String[] args) throws InterruptedException 
 	{
-		//Below code will launch chrome browser
+		//Below code will launch Chrome browser
 		//driver = new ChromeDriver();
 		
-		//Below code will launch firefox browser
+		//Below code will launch Firefox browser
 		//driver = new FirefoxDriver();
 		
-		//Below code will launch safari browser
+		//Below code will launch Safari browser
 		driver = new SafariDriver();
 		
 		//Below code is maximum the browser
