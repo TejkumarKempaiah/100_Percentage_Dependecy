@@ -18,6 +18,7 @@ public class LaunchChrome
 		
 		//NOTE: Below one is for Firefoxdriver
 		WebDriverManager.firefoxdriver().setup();
+
 	}
 
 	public static void main(String[] args) throws InterruptedException 
@@ -26,12 +27,13 @@ public class LaunchChrome
 		//driver = new ChromeDriver();
 		
 		//Below code will launch Firefox browser
-		//driver = new FirefoxDriver();
+		driver = new FirefoxDriver();
 		
 		//Below code will launch Safari browser
-		driver = new SafariDriver();
-		
+		//driver = new SafariDriver();
+				
 		//Below code is maximum the browser
+		driver.manage().window().fullscreen();
 		
 		
 		//Below code will navigate to an URL
